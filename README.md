@@ -11,24 +11,24 @@ Custom C++ implementation of the Separated Axis Theorem (SAT, explained [here](h
 
 ### Dependencies
 
-The graphical editor was only tested under Linux but should work on Windows
+The graphical editor was only tested under Linux but should work on Windows.
+
 The graphical editor depends on SDL2 and SDL2_image (`sdl2` and `sdl2_image` package on Archlinux, `libsdl2-dev` and `libsdl2-image-dev` on Ubuntu)
 
 ### Build steps
 
 * To build both the library and the editor :
 
-   make
-
+ `make`
 
 * To build the library only :
 
-   make release
+`make release`
 
 
 * To build the editor only :
 
-   make editor
+`make editor`
 
 
 ### Usage
@@ -80,6 +80,7 @@ Finally, you can also move and rotate the shapes, and get information about rota
 ### Editor
 
 The editor allows to draw shapes by hand and to save them to use in your application.
+
 Commands:
 
     Left click : add point, drag point if a point was near the click position
@@ -96,5 +97,6 @@ Commands:
 
 ### Misc
 
-The majority of variables names, comments and messages are in French
+The majority of variables names, comments and messages are in French.
+
 The polygon decomposition algorithm was written by Mark Bayazit and published at https://mpen.ca/406/bayazit
